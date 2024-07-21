@@ -1,0 +1,59 @@
+/* CSS for the periodic table */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px 0;
+    font-family: Arial, sans-serif;
+}
+
+td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    vertical-align: top;
+    transition: background-color 0.3s ease;
+    width: 100px; /* Adjust the width as per your requirement */
+}
+
+td:hover {
+    background-color: #f1f1f1;
+}
+
+h4 {
+    margin: 0 0 10px 0;
+    font-size: 1.2em;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-size: 0.9em;
+}
+
+li {
+    margin: 5px 0;
+}
+
+tr:nth-child(even) td {
+    background-color: #f9f9f9;
+}
+
+tr:nth-child(odd) td {
+    background-color: #fff;
+}
+
+.box {
+    background-color: #ccc;
+    border: 1px solid #999;
+    padding: 20px;
+    margin-bottom: 10px;
+    display: inline-block; /* Align boxes side by side */
+    width: 200px; /* Adjust the width as per your requirement */
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
